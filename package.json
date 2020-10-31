@@ -1,11 +1,25 @@
 {
   "name": "willow",
   "version": "0.0.1",
-  "description": "This is a web application to help with managing your RSS feeds.",
+  "description": "Willow is an RSS reader.",
   "author": "Vic Vijayakumar",
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@tailwindcss/ui": "^0.6.2",
+    "@tailwindui/react": "^0.1.1",
+    "next": "^10.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^1.9.4"
+  },
   "devDependencies": {
     "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
@@ -16,6 +30,11 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^4.1.2",
+    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:needcaffeine/willow.git"
   }
 }
